@@ -20,7 +20,7 @@ function publishFeed(price, retries) {
 
   log('Broadcasting feed_publish transaction: ' + JSON.stringify(exchange_rate));
 
-  steem.broadcast.feedPublish(config.active_key, 'yabapmatt', exchange_rate, function (err, result) {
+  steem.broadcast.feedPublish(config.active_key, config.account, exchange_rate, function (err, result) {
     if (result && !err) {
       log('Broadcast successful!');
     } else {
