@@ -1,0 +1,13 @@
+{
+  "rpc_nodes": [
+    "https://api.steemit.com",
+    "https://rpc.buildteam.io",
+    "https://steemd.minnowsupportproject.org",
+    "https://steemd.privex.io",
+    "https://gtg.steem.house:8090"
+  ],
+  "account": "your_witness_account_name",
+  "active_key": "your_witness_account_private_active_key",
+  "interval": 60,
+  "peg_multi": 1
+}
