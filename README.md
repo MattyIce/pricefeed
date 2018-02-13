@@ -12,10 +12,12 @@ $ sudo apt-get install nodejs-legacy
 ```
 
 ## Setup & Installation
-Clone the project repo into the "pricefeed" directory:
+Clone the project repo into the "pricefeed" directory and install using NPM:
 
 ```
 $ git clone https://github.com/MattyIce/pricefeed.git pricefeed
+$ cd pricefeed
+$ npm install
 ```
 
 Update the config.json file with your witness account name and private active key as described in the Configuration section below.
