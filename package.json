@@ -1,6 +1,6 @@
 {
   "name": "pricefeed",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Price feed publisher for Steem witnesses",
   "main": "feed.js",
   "scripts": {
