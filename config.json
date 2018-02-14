@@ -8,6 +8,7 @@
   ],
   "account": "your_witness_account_name",
   "active_key": "your_witness_account_private_active_key",
+  "exchanges": ["bittrex", "poloniex", "binance"],
   "interval": 60,
   "peg_multi": 1
 }
