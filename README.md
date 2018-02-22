@@ -7,8 +7,6 @@ If you already have nodejs & npm installed you can skip this section, but I want
 $ sudo apt-get update
 $ curl -sL https://deb.nodesource.com/setup_9.x | sudo -E bash -
 $ sudo apt-get install -y nodejs
-$ sudo apt-get install npm
-$ sudo apt-get install nodejs-legacy
 ```
 
 ## Setup & Installation
@@ -26,7 +24,7 @@ Update the config.json file with your witness account name and private active ke
 I suggest using the PM2 software to manage and run your nodejs programs in the background. Use the following commands to install PM2 and run the pricefeed program:
 
 ```
-$ npm install pm2 -g
+$ sudo npm install pm2 -g
 $ pm2 start feed.js
 $ pm2 logs feed
 ```
