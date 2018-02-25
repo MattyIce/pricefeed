@@ -31,6 +31,17 @@ $ pm2 logs feed
 
 If everything worked you should not see any errors in the logs and a price feed transaction should have been published to your account.
 
+### Run in Docker
+If you prefer using Docker, use the following commands:
+
+```
+docker build -t pricefeed .
+docker run -itd --rm --name pricefeed pricefeed
+
+# Check the status with docker logs
+docker logs pricefeed
+```
+
 ## Configuration
 ```
 {
