@@ -27,6 +27,7 @@ I suggest using the PM2 software to manage and run your nodejs programs in the b
 $ sudo npm install pm2 -g
 $ pm2 start feed.js
 $ pm2 logs feed
+$ pm2 save
 ```
 
 If everything worked you should not see any errors in the logs and a price feed transaction should have been published to your account.
